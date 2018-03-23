@@ -1,6 +1,6 @@
 {
   "name": "image64",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A cli tool for converting image file to base64 content",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
     "base64"
   ],
   "author": "hingsir",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1"
+  }
 }
